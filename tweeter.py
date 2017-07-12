@@ -1,7 +1,7 @@
 import tweepy, time
 
 #read in your twitter authentication variables for tweepy
-authStrings = open("stringsEU.txt", "r")
+authStrings = open("authstrings.txt", "r")
 authStringsList = authStrings.readlines()
 CONSUMER_KEY = authStringsList[0].strip()
 CONSUMER_SECRET = authStringsList[1].strip()
